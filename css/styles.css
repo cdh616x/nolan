@@ -11,9 +11,14 @@
   margin-bottom: 5%;
 }
 
+.title-text {
+  font-family: "MODERNSPACE", sans-serif;
+}
+
 .navbar {
   background-color: #B91646;
   border-radius: 5px;
+  font-family: "MODERNSPACE", sans-serif;
   padding-left: 3%;
   padding-right: 1%;
 }
