@@ -1,4 +1,7 @@
 #welcome {
   font-family: 'Karmatic Arcade', sans-serif;
-  font-size: 5em;
+}
+
+#header {
+  font-size: 4.5em;
 }
