@@ -7,6 +7,10 @@
   font-size: 4.5em;
 }
 
+.btn:hover {
+  background-color: #105652;
+}
+
 .navbar {
   background-color: #B91646;
   padding-left: 3%;
