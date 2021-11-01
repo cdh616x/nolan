@@ -58,6 +58,10 @@ body {
 
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #B91646;
+}
+
 #socials {
   text-align: center;
 }
