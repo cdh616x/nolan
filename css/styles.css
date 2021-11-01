@@ -7,6 +7,10 @@
   font-size: 4.5em;
 }
 
+#header:hover {
+  color: #105652;
+}
+
 .title {
   margin-bottom: 5%;
 }
