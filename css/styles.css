@@ -7,6 +7,10 @@
   font-size: 4.5em;
 }
 
+.title {
+  margin-bottom: 5%;
+}
+
 .navbar {
   background-color: #B91646;
   border-radius: 5px;
