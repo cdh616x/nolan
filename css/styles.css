@@ -1,5 +1,6 @@
 #welcome {
   font-family: 'Karmatic Arcade', sans-serif;
+  margin-bottom: 10%;
 }
 
 #header {
@@ -10,4 +11,32 @@
   background-color: #B91646;
   padding-left: 3%;
   padding-right: 1%;
+}
+
+a {
+  color: #105652;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B91646;
+}
+
+body {
+  background-color: #DFD8CA;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Reading page contents */
+
+#godsword {
+  font-family: "Karmatic Arcade", sans-serif;
+  text-align: center;
+}
+.carousel-inner {
+  background-color: #FBF3E4;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
 }
