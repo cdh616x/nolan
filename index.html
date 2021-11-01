@@ -12,35 +12,30 @@
 
 <body>
   <!-- makes navbar horizontal / other stylings -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">NM</a>
-    <ul class="navbar-nav ms-auto">
-      <li>
-        <button type="button" class="btn btn-outline-light btn-sm" name="button">
-          <a class="nav-link" href="publications.html">Publications</a>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-outline-light btn-sm" name="button">
-          <a class="nav-link" href="#">Other work</a>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-outline-light btn-sm" name="button">
-          <a class="nav-link" href="#">Thoughts</a>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-outline-light btn-sm" name="button">
-          <a class="nav-link" href="#">Contact</a>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-outline-light btn-sm" name="button">
-          <a class="nav-link" href="#">About</a>
-        </button>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-collapse-sm navbar-dark">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <img class="navbar-brand" src="images/mask.png" href="#"></img>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
   </nav>
   <section id="welcome" class="text-center">
     <div class="header">
