@@ -63,8 +63,12 @@ body {
 
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon {
   background-color: #B91646;
+}
+
+.carousel-control-next-icon {
+  background-color: #105652;
 }
 
 .carousel-item {
